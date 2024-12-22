@@ -10,6 +10,7 @@ push = 0;
 size = 1;
 dead = false;
 jump = 13;
+stiffness = .01;
 
 function reset(){
 	x = ogX;

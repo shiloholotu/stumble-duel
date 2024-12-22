@@ -9,6 +9,7 @@ scale = 2;
 rChange = 0;
 size = 1;
 dead = false;
+stiffness = .01; // how quickly the player snaps back to upright
 
 function reset(){
 	x = ogX;

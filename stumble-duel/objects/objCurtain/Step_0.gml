@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 if(!waiting){
 	y += (goal-y)/15;
 
@@ -7,7 +6,7 @@ if(!waiting){
 		goal = -20;
 	
 		if(objMaster.gameOver){
-			game_restart();//	
+			game_restart();	
 		}
 	
 		if(objMaster.frozen){
@@ -24,7 +23,8 @@ if(!waiting){
 		
 			var sprites = [sprKnightBox, sprNerdHeadS, sprElfHeadS, sprAstroHeadS, sprRandomHeadSR];
 
-		
+			
+			// choose a random character if the player choose the "random" option
 			while(objEnemyUpper.character == 4){
 				cur = irandom(4);
 				objEnemyUpper.character = cur;
@@ -38,9 +38,9 @@ if(!waiting){
 				objPlayerUpper.update();
 			}
 		
-			//show_debug_message(string(objPlayerUpper.character) + ":" + string(objEnemyUpper.character));
+
 	
-		
+			// reveal duel GUI
 		
 			objCrown.y = 151;
 			objBack.visible = true;
@@ -51,10 +51,13 @@ if(!waiting){
 			objMaster.frozen = false;
 		}
 	
+		// if someone has died
 		if(objMaster.deathReset != 0){
+			// if player 1 died
 			if(objMaster.deathReset == 1){
+				// make player 2 bigger if not already max size
 				if(objEnemyUpper.size != 5) objEnemyUpper.size+=2;
-				else{
+				else{ // player 2 wins
 				
 					objCrown.y = 360;
 					objMaster.frozen = true;
@@ -64,9 +67,11 @@ if(!waiting){
 				
 				}
 			}
+			//if player 2 died
 			else{
+				// maker player 1 bigger if not already max size
 				if(objPlayerUpper.size != 5) objPlayerUpper.size+=2;
-				else{
+				else{ // player 1 wins
 					objCrown.y = 363;
 					objMaster.frozen = true;
 					objEnemyUpper.visible = false;
@@ -75,6 +80,8 @@ if(!waiting){
 				
 				}
 			}
+			
+			// put everyone back in their starting positions
 	
 			objEnemyUpper.reset();
 			objPlayerUpper.reset();
