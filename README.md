@@ -27,7 +27,7 @@ Most of the objects are just UI elements, but here are the notable ones:
 You can play Stumble Duel [here](https://gx.games/games/qj03ll/stumble-duel/), or you can run it on your machine by downloading the repo and opening [/stumble-duel/stumble-duel.yyp](/stumble-duel/stumble-duel.yyp) in the [GameMaker game engine](https://gamemaker.io/en/download).
 
 ## Credits (all Free-to-Use assets)
-- Soundtrack: spliced from https://youtu.be/9H4lxOs6YGY?si=XnyLXV9PYMlnAshk ([CC by 3.0](https://creativecommons.org/licenses/by/3.0/))
+- Soundtrack: spliced from [Party's Cancelled - RoccoW](https://youtu.be/9H4lxOs6YGY?si=XnyLXV9PYMlnAshk) ([CC by 3.0](https://creativecommons.org/licenses/by/3.0/))
 - Cheering loop: https://freesound.org/people/mglennsound/sounds/678545/ ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
 - Sword clash effect: [heavy_sword_hit_w_ringout_03_01142023.mp3 by Artninja](https://freesound.org/people/Artninja/sounds/699986/) ([CC by 4.0](https://creativecommons.org/licenses/by/4.0/))
 - Cursor assets: https://kenney.nl/assets/cursor-pixel-pack ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
