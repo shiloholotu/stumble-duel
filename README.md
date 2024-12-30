@@ -16,7 +16,7 @@ Every round you win, you grow bigger (and become harder to balance). First to wi
 - [ Right ] Player 2 move right
 
 ## If You're Here for the Code...
-The meaningful stuff of the meaningful stuff can be found in [/stumble-duel/objects](/stumble-duel/objects)
+The meaningful stuff can be found in [/stumble-duel/objects](/stumble-duel/objects)
 
 Most of the objects are just UI elements, but here are the notable ones:
 - [objPlayerUpper](/stumble-duel/objects/objPlayerUpper): controls Player 1 movement and collisions between players
